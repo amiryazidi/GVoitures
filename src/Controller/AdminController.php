@@ -63,7 +63,7 @@ class AdminController extends AbstractController
     }
 
      /**
-     * @Route("/admin/{id}", name="supVoiture", methods="SUP")
+     * @Route("/admin/{id}",name="supVoiture", methods="SUP")
      */
     public function suppression(Voiture $voiture, Request $request, EntityManagerInterface $em): Response
     {
